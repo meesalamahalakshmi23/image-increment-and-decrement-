@@ -24,4 +24,12 @@ function onDecbtn(){
         warning.style.color="black";
         warning.style.fontSize="20px";
     }
+
 }
+function onResetbtn(){
+    count=120;
+    image.style.width=count+"px";
+    warning.textContent="";
+
+}
+        
